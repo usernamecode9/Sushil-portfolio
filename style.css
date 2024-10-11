@@ -18,6 +18,7 @@ body{
 .nevigation{
 
     width: 100%;
+    position: fixed;
     background-color: #333;
     color: #fff;
     display: flex;
@@ -62,6 +63,7 @@ span{
 .hero-section{
     max-width: 1200px;
     height: 90vh;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -121,6 +123,7 @@ span{
 }
 .Services{
     max-width: 1200px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,6 +159,7 @@ span{
 }
 .footer{
     width: 100%;
+   
     background-color: #333;
     &>h1{
         padding-top: 20px;
@@ -166,6 +170,7 @@ span{
 }
 .Contact{
     max-width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: center;
     gap: 30px;
