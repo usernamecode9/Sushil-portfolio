@@ -100,8 +100,9 @@ span{
     font-weight: 600;
     padding: 10px 20px;
     cursor: pointer;
+    align-self: center;
     transition: 0.2s ease-in-out;
-    text-align: center;
+
 }
 .btn:hover{
     background-color: #000;
@@ -215,12 +216,16 @@ span{
     .container-2{
         display: none;
     }
-    .service-box{
+    /* .service-box{
         flex-direction: column;
         height: 100vh;
         align-items: center;
         
-    }
+    } */
+     .btn{
+        width: 80%;
+        text-align: center;
+     }
     .service-item{
         width: 80%;
         height: 350px;
