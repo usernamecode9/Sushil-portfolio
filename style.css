@@ -26,6 +26,7 @@ body{
     align-items: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     padding: 10px 0 ;
+
 }
 span{
     color: red;
@@ -35,7 +36,7 @@ span{
     font-weight: 800;
     color: #fff;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-left: 70px;
 }
 .nav-title{
     font-size: 23px;
@@ -252,4 +253,12 @@ span{
 }
 }
 
+.logopng {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    justify-self: center;
+    margin-top: 5px;
+    margin-left: 15px;
+}
 
